@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1526809739 source:f:\codeblocks_projects\collision\main.cpp
+	"SDL.h"
+	"Game.h"
+	<iostream>
+
+1525511269 f:\codeblocks_projects\collision\include\game.h
+	"SDL.h"
+	"SDL_image.h"
+	<iostream>
+	"MyText.h"
+
+1518458220 f:\codeblocks_projects\collision\include\mytext.h
+	"SDL.h"
+	"SDL_image.h"
+	"SDL_ttf.h"
+	<iostream>
+
+1525513851 source:f:\codeblocks_projects\collision\src\gameobject.cpp
+	"GameObject.h"
+	"TextureManager.h"
+	<iostream>
+
+1518458445 f:\codeblocks_projects\collision\include\gameobject.h
+	"Game.h"
+
+1515853963 f:\codeblocks_projects\collision\include\texturemanager.h
+	"Game.h"
+
+1526223266 source:f:\codeblocks_projects\collision\src\mybutton.cpp
+	"MyButton.h"
+
+1526223192 f:\codeblocks_projects\collision\include\mybutton.h
+	"GameObject.h"
+
+1518458232 source:f:\codeblocks_projects\collision\src\mytext.cpp
+	"MyText.h"
+
+1515854748 source:f:\codeblocks_projects\collision\src\texturemanager.cpp
+	"TextureManager.h"
+
+1526751504 source:f:\codeblocks_projects\collision\src\molecule.cpp
+	"Molecule.h"
+	<cmath>
+
+1526409476 f:\codeblocks_projects\collision\include\molecule.h
+	<GameObject.h>
+
+1526809876 source:f:\codeblocks_projects\collision\src\game.cpp
+	"Game.h"
+	"TextureManager.h"
+	"GameObject.h"
+	"Molecule.h"
+	"MyButton.h"
+	<cmath>
+	<iomanip>
+	<cstdlib>
+	<ctime>
+	<vector>
+	<sstream>
+
